@@ -1,0 +1,9 @@
+graph TD
+    A[Navegador do Usuário] -->|Solicita index.html| B(GitHub Pages)
+    B -->|Serve HTML, CSS, JS| C[index.html]
+    C -->|Linka para| D[assets/css/styles.css]
+    C -->|Linka para| E[assets/js/script.js]
+    D -->|Define estilos e animações| F{Animações CSS}
+    E -->|Lida com interações e animações de rolagem| G{Interatividade JavaScript}
+    F & G --> H[Interface de Usuário Interativa]
+

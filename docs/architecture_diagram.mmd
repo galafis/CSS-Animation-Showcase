@@ -1,0 +1,9 @@
+graph TD
+    A[User Browser] -->|Requests index.html| B(GitHub Pages)
+    B -->|Serves HTML, CSS, JS| C[index.html]
+    C -->|Links to| D[assets/css/styles.css]
+    C -->|Links to| E[assets/js/script.js]
+    D -->|Defines styles & animations| F{CSS Animations}
+    E -->|Handles interactions & scroll animations| G{JavaScript Interactivity}
+    F & G --> H[Interactive UI]
+
