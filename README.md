@@ -50,13 +50,18 @@ python -m http.server 8000
 CSS-Animation-Showcase/
 ├── README.md
 ├── LICENSE
-├── styles.css
 ├── index.html
-├── components/
-└── assets/
+├── assets/
+│   └── css/
+│       └── styles.css
+├── docs/
+├── config/
+├── tests/
+└── .github/
+    └── workflows/
 ```
 
-### 🤝 Contributing
+### 🤝 Contribuindo
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### 📄 License
@@ -114,6 +119,22 @@ python -m http.server 8000
 - Aprendizado de práticas modernas em CSS
 - Referência de código e exemplos
 - Implementações de nível empresarial
+
+### 📊 Estrutura do Projeto
+```
+CSS-Animation-Showcase/
+├── README.md
+├── LICENSE
+├── index.html
+├── assets/
+│   └── css/
+│       └── styles.css
+├── docs/
+├── config/
+├── tests/
+└── .github/
+    └── workflows/
+```
 
 ### 🤝 Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
